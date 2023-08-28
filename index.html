@@ -11,15 +11,12 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
-	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
+	
 <link rel="icon" type="image/png" href="./assets/images/ninacarducci-favicon.png">
 	<title>Nina Carducci</title>
 </head>
 <body>
-<div class="top-header">
+<header class="top-header">
 	<h1 class="name">Nina Carducci</h1>
 	<div class="nav">   
 		<ul>
@@ -27,10 +24,11 @@
 			<li><a href="#gallery">Galerie</a></li>
 			<li><a href="#services">Service</a></li>
 			<li><a href="#contact">Contact</a></li>
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt=""></a></li>
+			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="instagram"></a></li>
 		</ul>
 	</div>
-</div>
+</header>
+<main>
 <div id="header">
 
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -115,7 +113,9 @@
 	<div class="quote">
 		<figure>
 			<blockquote>
-				<h1 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h1>
+				<p class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un 
+					fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude 
+					n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</p>
 			</blockquote>
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
@@ -160,15 +160,17 @@
 <div class="quote">
 	<figure>
 		<blockquote>
-			<h1 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h1>
+			<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, 
+				des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
 		</blockquote>
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
 </div>
-<div id="contact">
+</main>
+<footer id="contact">
 	<div class="container">
 		<div class="form-container">
-			<h3>Une question ? Une demande de devis ?</h3>
+			<h4>Une question ? Une demande de devis ?</h4>
 			<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 			<form action="" method="post">
 				<label>Nom</label>
@@ -184,6 +186,12 @@
 			<img src="./assets/images/camera.webp">
 		</div>
 	</div>
-</div>
+</footer>
+
+
+<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="./assets/maugallery.js"></script>
+	<script src="./assets/scripts.js"></script>
 </body>
 </html>
