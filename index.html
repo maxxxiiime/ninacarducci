@@ -57,16 +57,15 @@
       <h1 class="name">Nina Carducci</h1>
       <div class="nav">
         <ul>
-          <li><a href="#about">À propos</a></li>
-          <li><a href="#gallery">Galerie</a></li>
-          <li><a href="#services">Service</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about" aria-label="Aller à la section À propos">À propos</a></li>
+          <li><a href="#gallery" aria-label="Aller à la section Galerie">Galerie</a></li>
+          <li><a href="#services" aria-label="Aller à la section Service">Service</a></li>
+          <li><a href="#contact" aria-label="Aller à la section Contact">Contact</a></li>
           <li>
             <a
               class="social-link"
               href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-              target="_blank"
-            >
+              target="_blank" aria-label="Visitez mon profil Instagram" >
               <img
                 src="assets/images/instagram.webp"
                 width="20px"
@@ -134,8 +133,9 @@
             type="button"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide="prev"
+            aria-label="Slide précedent"
           >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"  aria-label="Image précédente"></span>
             <span class="visually-hidden">Previous</span>
           </button>
           <button
@@ -143,16 +143,16 @@
             type="button"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide="next"
+            aria-label="Slide suivant"
           >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="carousel-control-next-icon" aria-hidden="true"  aria-label="Image suivante"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
       </div>
       <div id="about">
         <div class="picture left">
-          <img src="./assets/images/photographe-nina-carducci-w-840.webp 840w"
-
+          <img src="./assets/images/photographe-nina-carducci-w-840.webp"
             alt="photographie nina carducci"
             width="840"
             loading="lazy"
@@ -189,6 +189,7 @@
               width="630"
               height="840"
               alt="photographie nina carducci concert aaron"
+              aria-label="photographie nina carducci concert aaron" 
               loading="lazy"
             />
 
@@ -199,6 +200,7 @@
               width="840"
               height="1260"
               alt="photographie nina carducci entreprise ali"
+              aria-label="photographie nina carducci entreprise ali " 
               loading="lazy"
             />
 
@@ -208,6 +210,7 @@
               src="./assets/images/gallery/entreprise/jason-goodman-photo-ninacarducci-w-840.webp"
               width="840px"
               alt="photographie nina carducci entreprise jason"
+              aria-label="photographie nina carducci entreprise jason" 
               loading="lazy"
             />
 
@@ -215,7 +218,9 @@
               data-gallery-tag="Mariages"
               class="gallery-item"
               src="./assets/images/gallery/mariage/hannah-busing-photo-ninacarducci-w-820.webp"
+              width="820px"
               alt="photographie nina Carducci mariages hannah"
+              aria-label="photographie nina Carducci mariages hannah" 
               loading="lazy"
             />
 
@@ -225,20 +230,25 @@
               src="./assets/images/gallery/portraits/ade-tunji-photographie-ninacarducci-w-540.webp"
               width="540px"
               alt="photographie nina Carducci portraits ade"
+              aria-label="photographie nina Carducci portraits ade" 
               loading="lazy"
             />
             <img
               data-gallery-tag="Mariages"
               class="gallery-item"
               src="./assets/images/gallery/mariage/jakob-owens-photo-ninacarducci-w-560.webp"
+              width="560px"
               alt="photographie nina Carducci mariages jakob"
+              aria-label="photographie nina Carducci mariages jakob" 
               loading="lazy">
 			  
             <img
               data-gallery-tag="Portrait"
               class="gallery-item"
               src="./assets/images/gallery/portraits/nino-van-prattenburg-photographie-ninacarducci-w-540.webp"
+              width="540px"
               alt="photographie nina Carducci portraits nino"
+              aria-label="photographie nina Carducci portraits nino" 
               loading="lazy">
 
             <img
@@ -247,6 +257,7 @@
               src="./assets/images/gallery/concerts/austin-neill-photo-ninacarducci-w-840.webp"
               width="840px"
               alt="photographie nina Carducci concert austin"
+              aria-label="photographie nina Carducci concert austin" 
               loading="lazy">
 
             <img
@@ -255,6 +266,7 @@
               src="./assets/images/gallery/entreprise/mateus-campos-felipe-photo-ninacarducci-w-840.webp"
               width="840px"
               alt="photographie nina Carducci entreprises mateus"
+              aria-label="photographie nina Carducci entreprises mateus" 
               loading="lazy">
           </div>
         </div>
@@ -341,13 +353,13 @@
           </p>
           <form method="post">
             <label for="nom">Nom</label>
-            <input type="text" name="nom" id="nom" />
+            <input type="text" name="nom" id="nom" aria-label="Entrez votre nom"/>
             <label for="email">Email</label>
             <input
               type="email"
               name="email"
               id="email"
-              aria-label="email-description"
+              aria-label="Votre adresse email" 
             />
             <label for="message">Message</label>
             <textarea
